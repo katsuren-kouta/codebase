@@ -1,0 +1,33 @@
+@media screen and (max-width: 959px) {
+    /* 959px以下に適用されるCSS（タブレット用） */
+   
+}
+@media screen and (max-width: 480px) {
+    /* 480px以下に適用されるCSS（スマホ用） */
+    header{
+        position: relative;
+        
+    }
+    
+    .intro-head h2{
+        padding-top: 80px;
+        font-size: 20px;
+    }
+
+    .intro-head h2::before{
+        bottom: -30px;
+    }
+    
+    .intro-text{
+        padding: 50px 0;
+    }
+    
+    p{
+        font-size: 5px;
+    }
+
+    .map img{
+        width: 100%;
+    }
+
+}

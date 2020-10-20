@@ -1,0 +1,192 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    color: #333;
+    background: #ffffff;
+    line-height: 1.7;
+    -webkit-text-size-adjust: 100%;
+    font-family: "ヒラギノ角ゴ Pro W3";
+    -webkit-font-smoothing: antialiased;
+    font-weight: 100;
+}
+
+header{
+    background-color: #005BAC;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+h2{
+    padding-top: 130px;
+    position: relative;
+}
+
+h2::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    bottom: -50px;
+    width: 60px;
+    height: 5px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #2581e8;
+    border-radius: 2px;
+  }
+
+.nav-link{
+    margin-right: 15px;
+    color: white;
+}
+
+.intro-wrapper{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.intro-head{
+    background-image: url('https://www.protosolution.co.jp/codebase/common/img/about-ttl-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.intro-text{
+    padding: 100px 0;
+    line-height: 0.5;
+    color: #888;
+}
+
+  .intro-image{
+      margin: 0 auto;
+  }
+
+.map{
+text-align: center;
+background-color: #E6F3F4;
+}
+
+.event-wrapper{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.event-head{
+    background-image: url('https://www.protosolution.co.jp/codebase/common/img/event-ttl-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.event-image{
+    padding-top: 150px;
+}
+
+.event-text{
+    font-weight: bold;
+    padding-top: 50px;
+}
+  .event-connpass a{
+      text-decoration: none;
+      display: inline-block;
+      width: 260px;
+      height: 50px;
+      background-image: url('https://www.protosolution.co.jp/codebase/common/img/event-button-sp.png');
+      background-repeat: no-repeat;
+  }
+
+  .event-connpass a:hover{
+      background-position: bottom;
+  }
+
+.sns-wrapper{
+    background-image: url('https://www.protosolution.co.jp/codebase/common/img/sns-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.sns-head{
+    background-image: url('https://www.protosolution.co.jp/codebase/common/img/sns-ttl-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sns-timeline{
+    padding: 100px 0;
+}
+
+.report-wrapper{
+    background-color: #E6F3F4;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.report-head{
+    background-image: url('https://www.protosolution.co.jp/codebase/common/img/news-ttl-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.report-cards{
+    padding: 100px 0;
+}
+
+.card{
+    margin: 0 30px;
+    text-align: left;
+}
+
+.calendar-wrapper{
+    background-color: white;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.calendar-head{
+    background-image: url('https://www.protosolution.co.jp/codebase/common/img/eventcalender-ttl-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.calendar{
+    padding: 100px 0;
+}
+
+.service-wrapper{
+    background-color: white;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.service-head{
+    background-image: url('https://www.protosolution.co.jp/codebase/common/img/service-ttl-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.service-info{
+    padding: 100px 0;
+    text-align: left;
+    line-height: 1;
+}
+
+.service-rules{
+    padding: 30px 0;
+}
+
+.service-rule{
+    text-align: left;
+}
+
