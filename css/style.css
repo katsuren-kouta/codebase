@@ -43,6 +43,12 @@ h2::before {
     color: white;
 }
 
+.wrapper{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
 .intro-wrapper{
     text-align: center;
     padding-bottom: 100px;
@@ -105,10 +111,7 @@ background-color: #E6F3F4;
     background-image: url('https://www.protosolution.co.jp/codebase/common/img/sns-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: hidden;
     text-align: center;
-    width: 100%;
-    height: auto;
 }
 
 .sns-head{
@@ -123,10 +126,7 @@ background-color: #E6F3F4;
 
 .report-wrapper{
     background-color: #E6F3F4;
-    overflow: hidden;
     text-align: center;
-    width: 100%;
-    height: auto;
 }
 
 .report-head{
@@ -146,10 +146,7 @@ background-color: #E6F3F4;
 
 .calendar-wrapper{
     background-color: white;
-    overflow: hidden;
     text-align: center;
-    width: 100%;
-    height: auto;
 }
 
 .calendar-head{
@@ -164,16 +161,13 @@ background-color: #E6F3F4;
 
 .service-wrapper{
     background-color: white;
-    overflow: hidden;
-    text-align: center;
-    width: 100%;
-    height: auto;
 }
 
 .service-head{
     background-image: url('https://www.protosolution.co.jp/codebase/common/img/service-ttl-bg.png');
     background-repeat: no-repeat;
     background-position: center;
+    text-align: center;
 }
 
 .service-info{
@@ -182,11 +176,141 @@ background-color: #E6F3F4;
     line-height: 1;
 }
 
-.service-rules{
-    padding: 30px 0;
-}
-
 .service-rule{
     text-align: left;
 }
 
+.service-image{
+    float: left;
+    padding-right: 30px;
+}
+
+
+.service-text p{
+    font-size: 13px;
+    opacity: 0.7;
+    line-height: 1;
+}
+
+.service-attention{
+    border: solid red 1px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.attention-text{
+    display: inline-block;
+    padding: 20px 0;
+    text-align: left;
+}
+
+.voice-wrapper{
+    background-color: #E6F3F4;
+}
+
+.voices-head{
+    background-image: url('https://www.protosolution.co.jp/codebase/common/img/voice-ttl-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+.voices{
+    padding: 100px 0;
+}
+
+.voice-head img{
+    float: left;
+    padding-right: 30px;
+}
+
+.voice-head ul{
+    list-style: none;
+}
+
+.voice-text{
+    margin-top: 50px;
+    color: #888888;
+}
+
+.sponsor-wrapper{
+    background-color: white;
+}
+
+.sponsor-head{
+    text-align: center;
+}
+
+.sponsor-text{
+    text-align: center;
+    padding: 100px 0;
+    opacity: 0.7;
+}
+
+.silver-sponsor-title{
+    text-align: center;
+    position: relative;
+}
+
+.silver-sponsor-title::before{
+    position: absolute;
+    background-color: silver;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    content: '';
+}
+
+.silver-sponsor-title h3{
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    background-color: white;
+    padding: 0 10px;
+}
+
+.sponsor-image img{
+    width: 100%;
+}
+
+.special-sponsor{
+    padding: 100px 0;
+}
+
+.special-sponsor-title{
+    text-align: center;
+    position: relative;
+}
+
+.special-sponsor-title::before{
+    position: absolute;
+    background-color: #005BAC;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    content: '';
+}
+
+.special-sponsor-title h3{
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    background-color: white;
+    padding: 0 10px;
+}
+
+.access-wrapper{
+    background-image: url('https://www.protosolution.co.jp/codebase/common/img/access-map-pc.png');
+    overflow: hidden;
+    height: 500px;
+}
+
+footer{
+    background-color: #005BAC;
+    text-align: center;
+    color: white;
+    height: auto;
+    overflow: hidden;
+}
